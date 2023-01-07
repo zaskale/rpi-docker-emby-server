@@ -10,7 +10,7 @@ Ensure that your Raspberry Pi is up to date by running:
 
 `sudo apt upgrade`
 
-Connect external SSD and check if it's dedected by OS:
+Connect external SSD and check if it's dedected by OS. Take note of the device (e.g. /dev/sda1):
 
 `sudo fdisk -l`
 
@@ -97,7 +97,7 @@ services:
     restart: unless-stopped
 ```
 
-Once completed, click on _Deplay the Stack_. When it’s finished, you can access it by navigating to the IP address of your Raspberry Pi and port 8096.
+Once completed, click on _Deploy the Stack_. When it’s finished, you can access it by navigating to the IP address of your Raspberry Pi and port 8096.
 
 `http://[RASPBERRY_PI_IP]:8096`
 
