@@ -60,11 +60,13 @@ For 32 bit OS - `sudo docker run --restart always -d -p 9000:9000 -v /var/run/do
 
 For 64 bit OS - `sudo docker run --restart always -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:linux-arm64`
 
-You should now be able to navigate to the IP address of your Raspberry Pi and port 9000 to access Portainer. Open up your web browser, and enter the following address. Once opened, create a username and password:
+You should now be able to navigate to the IP address of your Raspberry Pi and port 9000 to access Portainer. Open up your web browser, and enter the following address:
 
 `http://[RASPBERRY_PI_IP_ADDRESS]:9000`
 
-Select **Local** and click _Connect_. Your Portainer should how be up and running.
+Once opened, create **username** and **password**.
+
+Select **Local** and click _Connect_. Your Portainer should now be up and running.
 
 ## **Install Emby**
 
